@@ -1,0 +1,38 @@
+.parent
+{
+    background-color: #424242;
+    border-radius: .5rem;
+    box-shadow: 18px 18px 20px 0 #333232;
+}
+#sport
+{
+    background-color: #424242;
+    border-color: gray;
+}
+::placeholder
+{
+    color: gray;
+}
+i
+{
+    cursor: pointer;
+}
+h1
+{
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+    font-size: 2rem;
+}
+@media (max-width:767px) {
+    .input
+    {
+        gap:10px;
+    }
+}
